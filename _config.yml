@@ -1,0 +1,36 @@
+# top level stuff you probably don't need to touch
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+rdiscount:
+  extensions: [smart]
+permalink: /:title.html
+port: 8080
+
+title: Melissa Mayol
+url: 'http://melissamayol.com'
+
+
+# Enable one of these styles by removing #
+#style: styles-2
+#style: styles-3
+#style: styles-4
+#style: styles-5
+#style: styles-6
+
+
+#Profile information
+name: Melissa Mayol
+tagline: Biologist
+pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+#sidebar links
+email: mmayol17@gmail.com
+phone: 201 281 3337
+website: melissamayol.com #do not add http://
+linkedin: melissamayol
+
+# needed for travis-ci build
+exclude: [vendor]
